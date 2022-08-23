@@ -1,5 +1,9 @@
 package day2;
 
+/* SAI
+3. Реализовать программу No2, используя цикл while
+ */
+
 import java.util.Scanner;
 
 public class Task3 {
