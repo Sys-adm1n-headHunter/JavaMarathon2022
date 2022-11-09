@@ -20,8 +20,5 @@ public class Main {
         cars.add(3,"Audi");
         cars.remove(0);
         System.out.println(cars);
-
-
-
     }
 }
