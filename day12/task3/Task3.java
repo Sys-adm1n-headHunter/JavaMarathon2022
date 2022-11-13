@@ -37,7 +37,7 @@ public class Task3 {
     public static List<MusicBand> groupsAfter2000(List<MusicBand> bands){
         List<MusicBand> newMusicBands = new ArrayList<>();
         for (MusicBand musicBand: bands) {
-            if (musicBand.getYear()>=2000){
+            if (musicBand.getYear()>2000){
                 newMusicBands.add(musicBand);
             }
         }

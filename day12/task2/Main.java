@@ -5,17 +5,24 @@ package day12.task2;
  */
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Integer> arr = new ArrayList<>();
-        for (int i = 0; i <= 350; i++) {
-            if(0<=i && i<=30 ){
-                arr.add(i);
-            }else if (300<=i && i<=350){
-                arr.add(i);
+        List<Integer> list = new ArrayList<>();
+
+        for (int i = 0; i <= 30; i++) {
+            if (i % 2 == 0) {
+                list.add(i);
             }
         }
-        System.out.println(arr);
+
+        for (int i = 300; i <= 350; i++) {
+            if (i % 2 == 0) {
+                list.add(i);
+            }
+        }
+
+        System.out.println(list);
     }
 }
